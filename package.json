@@ -43,6 +43,7 @@
     "@babel/core": "7.9.6",
     "@babel/preset-env": "7.9.6",
     "@testing-library/react": "10.0.4",
+    "@types/react": "^16.9.41",
     "babel-jest": "26.0.1",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "babel-preset-minify": "0.5.1",
@@ -80,5 +81,6 @@
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     }
-  }
+  },
+  "types": "./types/index.d.ts"
 }
